@@ -1,0 +1,47 @@
+html{height:100%}
+body{
+	background-image: url(../image/bg.png);
+	min-height: 90%;
+}
+#box {
+	margin: 3%;
+}
+#box-caption {
+	padding: 20px;
+	font-size:40px;
+	text-align: center;
+	color:gray;
+}
+#box-contents {
+	padding:5% 10%;
+	clear:both;
+}
+.panel {
+	float:left;
+	width:25%;
+	margin-left: 4%;
+	margin-right:4%;
+/*		padding-left:4%;
+	padding-right:4%;*/
+	height:200px;
+}
+.panel_img {
+	background-position: center;
+	background-repeat: no-repeat;
+	height:150px;
+}
+.panel_desc {
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	color:gray;
+}
+#link1 {
+	background-image: url(../image/link1.png);
+}
+#link2 {
+	background-image: url(../image/link2.png);
+}
+#link3 {
+	background-image: url(../image/link3.png);
+}
